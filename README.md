@@ -75,11 +75,27 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1.  **Clone the repository:**
     ```sh
-    git clone <your-repository-url>
-    cd <your-repository-directory>
+    git clone git@github.com:Seakty/Mask_detection.git
+    cd Mask_detection
     ```
 
-2.  **Install the required libraries:**
+2.  **Create and activate a virtual environment:**
+    * This keeps your project dependencies isolated.
+
+    * **On macOS/Linux:**
+        ```sh
+        python3 -m venv venv
+        source venv/bin/activate
+        ```
+
+    * **On Windows:**
+        ```sh
+        python -m venv venv
+        .\venv\Scripts\activate
+        ```
+
+3.  **Install the required libraries:**
+    * With your virtual environment activated, install the packages.
     ```sh
     pip install -r requirements.txt
     ```
@@ -112,7 +128,7 @@ python yolo_detect.py --model my_model_v12.pt --source path/to/your/video.mp4 --
 ```
 💻 **Detecting with the realtime webcam:**
 ```sh
-python yolo_detect.py --model my_model_v12.pt --source usb0 --resolution 640x480
+python yolo_detect.py --model my_model_v12.pt --source usb0 --resolution  1280x720
 ```
 ## 🧠 Training
 
