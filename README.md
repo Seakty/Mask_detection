@@ -16,7 +16,7 @@ A high-performance, real-time system to accurately detect face masks in images, 
 ![image](https://github.com/user-attachments/assets/ce2e8f43-237a-44ab-a680-a53de0cf0660)
 
 
-> This project can identify if a person is wearing a mask correctly, incorrectly, or not at all, making it suitable for monitoring compliance in public spaces.
+> This project can identify if a person is wearing a mask or not at all, making it suitable for monitoring compliance in public spaces.
 
 ---
 
